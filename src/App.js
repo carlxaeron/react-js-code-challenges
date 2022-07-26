@@ -5,6 +5,7 @@ import { useState } from 'react';
 import Test1 from './01-color-renderer/ColorRenderer';
 import Test2 from './02-dark-mode/DarkMode';
 import Test3 from './03-form-validator/FormValidator';
+import Test4 from './04-dog-pics/DogPicsRenderer';
 
 function App() {
   const [darkMode,setDarkMode] = useState(false)
@@ -29,6 +30,7 @@ function App() {
         <Test1/>
         <Test2 isDark={darkMode} setDarkMode={setDarkMode}/>
         <Test3/>
+        <Test4/>
       </main>
       <footer>
 
