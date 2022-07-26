@@ -19,6 +19,7 @@ const ColorRenderer = () => {
     return (
         <section className='ColorRenderer'>
         {colors.map(color => <Color 
+            key={color.color}
             color={color.color} 
             colorName={color.colorName}/>)}
         </section>
