@@ -1,11 +1,13 @@
-import logo from './logo.svg';
+
+// import logo from './logo.svg';
 import './App.css';
+import Test1 from './01-color-renderer/ColorRenderer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div>
+      <header>
+        {/* <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -16,8 +18,14 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a> */}
       </header>
+      <main>
+        <Test1/>
+      </main>
+      <footer>
+
+      </footer>
     </div>
   );
 }
