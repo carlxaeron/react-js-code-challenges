@@ -1,6 +1,6 @@
 import Color from './Color';
 
-const ColorRenderer = () => {
+const ColorRenderer = ({ setBgColor }) => {
     const colors = [
         {
             color: 'red',
@@ -19,6 +19,7 @@ const ColorRenderer = () => {
     return (
         <section className='ColorRenderer'>
         {colors.map(color => <Color 
+            onClick={() => setBgColor(color.color)}
             key={color.color}
             color={color.color} 
             colorName={color.colorName}/>)}

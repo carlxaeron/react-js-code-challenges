@@ -20,6 +20,9 @@ code {
   padding: 1rem;
   width: 33%;
 }
+.color.clickable {
+  cursor: pointer;
+}
 
 .wrapper {
   min-height: 100vh;

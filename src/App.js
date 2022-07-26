@@ -11,9 +11,14 @@ import Test6 from './06-window-event/WindowEventRenderer';
 
 function App() {
   const [darkMode,setDarkMode] = useState(false)
+  const [bgColor,setBgColor] = useState(false)
 
   return (
-    <div className={`wrapper ${darkMode ? 'dark' : 'light'}`}>
+    <div 
+      className={`wrapper ${darkMode ? 'dark' : 'light'}`}
+      style={{
+        backgroundColor: darkMode ? '' : (bgColor || '')
+      }}>
       <header>
         {/* <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -29,7 +34,7 @@ function App() {
         </a> */}
       </header>
       <main>
-        <Test1/>
+        <Test1 setBgColor={setBgColor}/>
         <Test2 isDark={darkMode} setDarkMode={setDarkMode}/>
         <Test3/>
         <Test4/>
