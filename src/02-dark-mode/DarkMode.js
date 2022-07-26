@@ -1,7 +1,11 @@
+import Button from './../components/Button'
+
 const DarkMode = ({ isDark, setDarkMode }) => {
     return (
         <section>
-            <button onClick={() => setDarkMode(!isDark)}>Dark: { isDark ? 'ON' : 'OFF' }</button>
+            <Button
+                onClick={() => setDarkMode(!isDark)}
+                title={`Dark: ${ isDark ? 'ON' : 'OFF' }`}/>
         </section>
     )
 }

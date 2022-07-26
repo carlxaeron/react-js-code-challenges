@@ -36,3 +36,9 @@ section {
 section:nth-child(1) {
   margin-top: 0;
 }
+
+.btn {
+  border: 0;
+  padding: 0.5rem;
+  cursor: pointer;
+}
