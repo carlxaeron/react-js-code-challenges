@@ -20,3 +20,19 @@ code {
   padding: 1rem;
   width: 33%;
 }
+
+.wrapper {
+  min-height: 100vh;
+}
+.dark {
+  background-color: black;
+}
+
+section {
+  margin: 2rem 0;
+  border-bottom: 1px solid gray;
+  padding: 0.5rem;
+}
+section:nth-child(1) {
+  margin-top: 0;
+}
