@@ -8,6 +8,7 @@ import Test3 from './03-form-validator/FormValidator';
 import Test4 from './04-dog-pics/DogPicsRenderer';
 import Test5 from './05-score-keeper/ScoreKeeper';
 import Test6 from './06-window-event/WindowEventRenderer';
+import Test8 from './08-pixel-art/PixelArtRenderer';
 
 function App() {
   const [darkMode,setDarkMode] = useState(false)
@@ -40,6 +41,7 @@ function App() {
         <Test4/>
         <Test5/>
         <Test6/>
+        <Test8/>
       </main>
       <footer>
 

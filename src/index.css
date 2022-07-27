@@ -50,3 +50,15 @@ section:nth-child(1) {
   max-height: 30vh;
   max-width: 25vw;
 }
+
+.pixel-art {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: calc(10vw + 20px);
+}
+.pixel {
+  width: 1vw;
+  height: 1vw;
+  border: 1px solid black;
+  cursor: pointer;
+}
